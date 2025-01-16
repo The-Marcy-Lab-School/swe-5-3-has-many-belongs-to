@@ -14,7 +14,7 @@ describe(testSuiteName, () => {
     // we have to do this weird import statement like this because
     // 1. we want to reset the module import every time
     // 2. CartItem is a default export
-    const { default: CartItem } = await import('vite-project/src/model/CartItem');
+    const { default: CartItem } = await import('../vite-project/src/model/CartItem');
 
     const item = new CartItem();
     expect(item instanceof CartItem).toBe(true);

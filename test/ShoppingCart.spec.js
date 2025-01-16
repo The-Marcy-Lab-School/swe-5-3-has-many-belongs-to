@@ -47,13 +47,14 @@ describe(testSuiteName, () => {
 
   test('cart.createItem instantiates and returns a new CartItem', async () => {
     const { default: ShoppingCart } = await import('vite-project/src/model/ShoppingCart');
-    const { default: CartItem } = await import('vite-project/src/model/CartItem');
+    const { default: CartItem } = await import('../vite-project/src/model/CartItem');
 
     const cart = new ShoppingCart();
     const itemName = 'apple';
     const itemPrice = 5;
     const newItem = cart.createItem(itemName, itemPrice);
-    console.log(newItem);
+    console.log(newItem)
+    console.log(newItem instanceof CartItem);//false
 
     expect(newItem instanceof CartItem).toBe(true);
 
