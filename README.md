@@ -23,17 +23,17 @@ npm t
 
 ### Submitting On Time
 
-You have to understand that "grades" don't exist at Marcy. We only need performance data in order to know how you're doing, and make sure the people who need help get it as quickly as they can. It's ok if you didn't finish by the deadline! Just show us what you have. We'll have office hours and reviews, and we want to know what you are all struggling with so we can use those meetings effectively. **This is not about grades, its about seeing what you know, and where we can help!**
+You have to understand that "grades" don't exist at Marcy. We only need performance data in order to know how you're doing and make sure the people who need help get it as quickly as they can. It's ok if you don't finish by the deadline! Just show us what you have. We'll have office hours and reviews, and we want to know what you are all struggling with so we can use those meetings effectively. **This is not about grades, it's about seeing what you know and where we can help!**
 
 ### playground.js
 
 The most straightforward way to test your code is to test your code by hand as you work. Invoke your functions and use `console.log()` to print out the results. Then, `cd` into the `src/` directory and use the `node <file_name>` command to run your JavaScript files.
 
-You can also create what's called a "playground" (or "sandbox") file where you import any code you need, and then mess around with that file. We've included one in the `src` directory so you can see it. Run that program using `node src/playground.js`.
+You can also create a "playground" (or "sandbox") file where you import any code you need and then mess around with it. We've included one in the `src` directory so you can see it. Run that program using `node src/playground.js`.
 
 ### npm test
 
-Before submitting your code, make sure you got things right by running the provided automated tests.
+Before submitting your code, make sure you get things right by running the provided automated tests.
 
 You can do this using the commands:
 
@@ -88,7 +88,7 @@ Let's get started! You got this!
 
 ## Part 1: Cart Item
 
-Below you will find requirements for each class. You can test your class using `npm test` or `npm run test:w`
+Below, you will find the requirements for each class. You can test your class using `npm test` or `npm run test:w`
 
 The instructions here are intentionally vague. Look at the associated `CartItem.spec.js` files to see how we are using your class!
 
@@ -114,7 +114,7 @@ Each `ShoppingCart` instance should have the following methods:
 - `createItem(name, price)`: creates a new CartItem and adds it to the instance's cart
 - `getItems()`: returns the array of items held by this `ShoppingCart` instance
 - `removeItem(id)`: removes an item from the instance's cart based on the given id
-- `getTotal()`: returns the total price of all itesm held by this `ShoppingCart` instance
+- `getTotal()`: returns the total price of all items held by this `ShoppingCart` instance
 
 ## Part 3: Shopping Cart Class Properties/Methods
 
